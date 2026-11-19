@@ -2,5 +2,8 @@
     "name": "anio-software/test-package",
     "description": "Test package",
     "type": "library",
-    "license": "MIT"
+    "license": "MIT",
+    "autoload": {
+        "files": ["src/test.php"]
+    }
 }
